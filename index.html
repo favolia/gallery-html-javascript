@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>previous and next image</title>
+</head>
+<body>
+
+    <!-- disini kita punya tag image dengan attribute "src" yang kosong -->
+    <!-- tag img ini  kita beri "id" yang di isi dengan "gambar", karna kita akan memanipulasinya di javascript -->
+    <img id="gambar" src="" alt="" width="300">
+
+    <!-- 2 tombol ini mempunyai attribute "onclick" yang berisi sebuah fungsi "next()" dan "previous()" -->
+    <!-- yang berarti ketika salah satu tombolnya di klik akan menjalankan fungsinya sendiri yang berada di isi attribute "onclick" -->
+        <button onclick="previous()">previous</button>
+        <button onclick="next()">next</button>
+
+
+        <!-- kita akan menghubungkan html ini ke file "script.js" -->
+        <!-- yang dimana fungsi "previous()" dan "next()" dibuat -->
+    <script src="script.js"></script>
+</body>
+</html>
